@@ -1,0 +1,44 @@
+/* stylesheet for my website :) */
+body {
+    background-color: rgb(255, 213, 219);
+}
+
+div {
+    /* color */
+    background-color: pink;
+
+    /* box model properties */
+    margin: 1%;
+    padding: 2%;
+}
+
+h1 {
+    /* center my name */
+    text-align: center;
+}
+
+#myImage {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+#linky:hover {
+    color: green;
+}
+
+.hiddenImage {
+    /* hide the image at first */
+    display: none;
+}
+
+.textHover {
+    text-decoration: underline;
+}
+
+.textHover:hover ~ .hiddenImage {
+    padding-top: 1%;
+    padding-left: 5%;
+    display: block;
+    z-index: 5;
+}
