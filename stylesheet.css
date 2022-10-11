@@ -37,8 +37,12 @@ h1 {
 }
 
 .textHover:hover ~ .hiddenImage {
-    padding-top: 1%;
-    padding-left: 5%;
     display: block;
     z-index: 5;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
